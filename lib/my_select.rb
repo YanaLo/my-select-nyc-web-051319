@@ -7,5 +7,5 @@ def my_select(collection)
  i+=1 
 end
 my_select(n) do|i|
-new_array
+if i.even?
 end 
