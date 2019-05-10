@@ -6,6 +6,6 @@ def my_select(collection)
  new_array.push yield(collection[i]==true)
  i+=1 
 end
-my_select do|i|
+new_array
 
 end 
