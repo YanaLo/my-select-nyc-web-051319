@@ -8,4 +8,6 @@ def my_select(collection)
 end
 my_select(n) do|i|
 if i.even?
+  i
 end 
+end
