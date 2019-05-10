@@ -4,10 +4,9 @@ def my_select(collection)
  new_array=[]
  while i<collection.length 
  new_array.push yield(collection[i])
- i+=1 
+ 
 end
-my_select(n) do|i|
-if i.even?
-  i
+i+=1
 end 
+new_array
 end
